@@ -8,7 +8,7 @@ import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
-@ServerEndpoint("/ep")
+@ServerEndpoint("/ws/simple")
 public class EndpointServer {
 
     @OnOpen

@@ -1,3 +1,8 @@
+jetty:
+  staticResourceBase: "classpath:static"
+  connectors:
+  - port: 8080
+
 jettywebsocket:
   asyncSendTimeout: "5s"
   maxSessionIdleTimeout: "30min"
